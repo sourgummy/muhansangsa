@@ -87,7 +87,7 @@ public class WMSWhController {
 //				Map<String, List<WhLocAreaVO>> whWhlaList = null; // 특정 창고 구역에 해당하는 창고 구역 내 위치 목록
 				
 				// 창고 가져오기
-				whList = whService.getWarehouseList("", "", 0, 100);
+				whList = whService.getWarehouseList("", "", 0, 100, -1);
 				
 //				whWhaList = new HashMap<String, List<WhAreaVO>>(); // <창고 코드, 창고 코드에 해당하는 창고 구역 목록>
 //				whWhlaList = new HashMap<String, List<WhLocAreaVO>>(); // <창고 구역, 창고 구역에 해당하는 위치 목록>
